@@ -1,11 +1,14 @@
-import logo from "./logo.svg";
+import React from "react";
+
+import Home from "./Screens/Home/Home.Screen";
+
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Home />
       </header>
     </div>
   );
